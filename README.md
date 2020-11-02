@@ -1,7 +1,7 @@
 # weather-station
 Weather station, using PIC16F18855 and Rpi0w  
 
-![Test Image 1]("P1200320 coped.jpg")
+![Test Image 1](P1200320_croped.png)
 
 ![Test Image 1]("P1200254.jpg")
 
