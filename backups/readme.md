@@ -7,3 +7,5 @@ soil_moisture_probe:  Capacitive soil moisture probe
 
 Rpi_sleepy: PIC based sleep timer for the Rpi0w.  
 
+removing old backups
+
