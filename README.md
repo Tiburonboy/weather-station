@@ -9,8 +9,8 @@ The LCD, WiFi shield, PIC16F18857 and TEPT4400 light sensor are mounted inside o
 ![Test Image 1](P1200331_croped.png)  
 The LCD, WiFi shield, PIC16F18857 and TEPT4400 light sensor are mounted inside on the lid of the enclosure.   
 
+## Schematic of the weather station wiring
 ![Test Image 2](Schematic_Weather_v2_2020-10-22_07-31-23.png)  
-Schematic of the weather station wiring.  
 
 ## Digital Relative Humidity sensor with Temperature output, HTU21D
 The HTU21D digital humidity sensors is a dedicated humidity and temperature sensor.  It has a typical accuracy of ±2% with an operating range that's optimized from 5% to 95% RH. Operation outside this range is still possible - just the accuracy might drop a bit. The temperature output has an accuracy of ±1°C from -30~90°C. 
