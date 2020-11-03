@@ -1,5 +1,5 @@
 # weather-station
-I started working on the weather station again.  The old weather station is described [here](https://easyeda.com/editor#id=|017257c0cde345f2abf3dac7ea6eeea2|1e0ec5df3e4c47318fbd02b9b1d24101).  It had a number of problems.  Primarily, the SparkFun WiFi library code for the Ardunio would not maintain a connection to the server.  This was back in 2018 when I was working on version 1 of my weather station.  Not knowing much about WiFi and not being particularity interested in doing a deep dive into the code, I did however do some research and found that someone had re-written the SparkFun WiFi code, documenting the deficiencies and fixed a number of issues.  I found it discouraging that Sparkfun would release code in such a poor state.  They should have at least included a warning that the code was incomplete.  
+I started working on the weather station again.  The old weather station is described [here](https://af6ea.blogspot.com/2016/02/arduino-pressure-humidity-temperature.html).  It had a number of problems.  Primarily, the SparkFun WiFi library code for the Ardunio would not maintain a connection to the server.  This was back in 2018 when I was working on version 1 of my weather station.  Not knowing much about WiFi and not being particularity interested in doing a deep dive into the code, I did however do some research and found that someone had re-written the SparkFun WiFi code, documenting the deficiencies and fixed a number of issues.  I found it discouraging that Sparkfun would release code in such a poor state.  They should have at least included a warning that the code was incomplete.  
 
 In the summer of 2020, I was motivated to get my weather station working and powered up the Ardunio stack.  I forgot that I had bypassed the voltage regulator on the Sparkfun Red board, so when I applied 9V to the power jack, I smoked the board.  Luckily, only the Ardunio Red board was damaged.  Version 2 of the weather station now uses a PIC16F18857 microcontroller installed on my break out board.  The boards are no longer stacked on the Ardunio headers, but are wired together by discrete wires.  
 
@@ -11,6 +11,8 @@ The LCD, WiFi shield, PIC16F18857 and TEPT4400 light sensor are mounted inside o
 
 ## Schematic of the weather station wiring
 ![Test Image 2](Schematic_Weather_v2_2020-10-22_07-31-23.png)  
+The schematic was drawn using easyEDA, the link is [here](https://easyeda.com/editor#id=|017257c0cde345f2abf3dac7ea6eeea2|1e0ec5df3e4c47318fbd02b9b1d24101).
+
 
 ## Digital Relative Humidity sensor with Temperature output, HTU21D
 The HTU21D digital humidity sensors is a dedicated humidity and temperature sensor.  It has a typical accuracy of ±2% with an operating range that's optimized from 5% to 95% RH. Operation outside this range is still possible - just the accuracy might drop a bit. The temperature output has an accuracy of ±1°C from -30~90°C. 
